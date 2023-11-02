@@ -9,8 +9,9 @@
 }
 .navbar{ /*width is used to make the footer cover the whole top of the page*/
     background-color: #97825d;
-    height: 50px;
+    height: 8vh;
     width: 100%;
+    top: 100%;
 }
 .logo{ /*object fit allows the logo image to fit it's container or border*/
     background-color: #97825d;
@@ -31,7 +32,7 @@
     background-color: #97825d;
     display: inline-block;
     font-weight: 300;
-    font-size: x-large;
+    font-size: 2vw;
 }
 .links a{
     text-decoration: none;
@@ -58,7 +59,10 @@
     position: absolute;
 }
 .headertext h2{
-    font-size: 4lh;
+    font-size: 5vw;
+}
+.headertext p{
+    font-size: 1.2vw;
 }
 .headertext span{
     color: #9A764B;
@@ -66,15 +70,15 @@
 #himg{
     float: right;
     width: 25vw;
-    height: 27vw;
-    margin-top: 8%;
+    height: 52vh;
+    margin-top: 8vh;
     margin-right: 3%;
 }
 .fb{ /*width is used to make the footer cover the whole bottom of the page*/
     position: fixed;
     bottom: 0;
     background-color: #97825d;
-    height: 50px;
+    height: 8vh;
     width: 100%;
 }
 .fbelem{
@@ -87,7 +91,7 @@
 }
 .abtmeelem{/*heavy value of font weight in order for the text to be clearer and readable*/
     font-weight: 300;
-    font-size: x-large;
+    font-size: 2vw;
     float: right;
     display: inline-block;
     top: 2%;
@@ -115,25 +119,25 @@
 }
 .stdheadertext{
     float: right;
-    margin-top: 2%;
-    margin-right: 10%;
+    margin-top: 5%;
+    margin-right: 8%;
     text-align: center;
     font-family: 'Comfortaa', cursive;
 }
 .stdheadertext h2{
-    font-size: 4em;
+    font-size: 4vw;
     color: #EBCE9F;
 }
 #teddyback{
     margin-top: 3%;
     margin-left: 4%;
     float: left;
-    width: 20em;
-    height: 30em;
+    width: 21vw;
+    height: 70vh;
 }
 .mccheaderframe{
     float: right;
-    margin-top: 1%;
+    margin-top: 2vh;
     margin-right: 8%;
 }
 .mccheadertext1{
@@ -141,26 +145,21 @@
     font-family: 'Comfortaa', cursive;
 }
 #mccdesc{
-    margin-left: 2%;
-    margin-top: 1%;
+    margin-top: 1vh;
 }
 #mccdesc h2{
-    font-size: xx-large;
+    margin-left: 1vw;
+    font-size: 2vw;
     color: #EBCE9F;
+}
+#mccdesc p{
+    margin-left: 1vw;
+    font-size: 1.2vw;
 }
 .mccheadertext2{
     float: right;
     text-align: center;
     font-family: 'Comfortaa', cursive;
-}
-#mcccon{ /*Heavy positioning used to put the text on the bottom right using top and left*/
-    position: absolute;
-    top: 60%;
-    left: 47%;
-}
-#mcccon h2{
-    font-size: xx-large;
-    color: #EBCE9F;
 }
 .refheadertext{
     text-align: center;
@@ -169,14 +168,16 @@
 }
 .refheadertext h1{
     color: #EBCE9F;
+    font-size: 2.4vw;
 }
 .refheadertext p{
     text-align: left;
-    margin-left: 12%;
+    margin-left: 33%;
+    font-size: 1.2vw;
 }
 #thisisme{ /*auto margins from left and right align the image to the middle*/
-    width: 30em;
-    height: 20em;
+    width: 38vw;
+    height: 49vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -185,6 +186,7 @@
 .abtmeheadertext{
    text-align: center;
    font-family: 'Comfortaa', cursive;
+    font-size: 1.2vw;
 }
 .abtmeheadertext span{
     text-decoration: underline;
